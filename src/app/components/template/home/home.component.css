@@ -1,0 +1,147 @@
+.nav{
+  text-align:right;
+  height:70px;
+  line-height: 70px;
+  position: relative;
+  z-index: 999;
+}
+.menu{
+  margin: 0 30px 00;
+}
+.menu a {
+  clear: right;
+  text-decoration: none;
+  color: #FEFFFF;
+  margin:0 10px;
+  line-height: 70px;
+  letter-spacing: 9px;
+  text-transform: uppercase;
+
+}
+.menu logo{
+  margin: 0 30px;
+  float: left;
+  font-weight: 300;
+  font-size: 25px;
+  letter-spacing: 2px;
+  position: relative;
+  z-index: 999;
+}
+
+.photo{
+  display: flex;
+  width: 100%;
+  height: 1000px;
+  position: relative;
+  background-image: url(https://www.guiadasemana.com.br/contentFiles/image/2017/02/FEA/principal/49393_w840h0_1486764558shutterstock-barbearia.jpg);
+  filter:grayscale(100%);
+  filter:gray;
+  background-size: cover;
+  overflow: hidden;
+  margin:0 0 0 0 ;
+}
+.photo-text{
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.photo h4{
+  font-size: 60px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color:orange;
+  margin:10px;
+  position:relative;
+  z-index: 998;
+}
+
+.sobre{
+  display: flex;
+  flex-direction: row;
+
+}
+.sobre .sobreNos{
+
+  background-color: #464646;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sobre .sobreNos p{
+  padding: 15px;
+  text-align: center;
+  max-width: 600px;
+  font-size: 30px;
+  color: white;
+}
+
+.equipe{
+  background-color: #f4f4f4;
+  justify-content: center;
+  justify-items: center;
+}
+
+.equipe .titulo{
+  padding-left: 590px;
+
+}
+
+.equipe .fotoequipe{
+  padding-left: 300px;
+}
+
+.produtos{
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+}
+
+.localizacao{
+  background-color: #464646;
+  justify-content: center;
+  justify-items: center;
+  padding-left: 410px;
+  padding-bottom: 20px;
+}
+
+.localizacao .titulo{
+  padding-left: 205px;
+  padding-top: 20px;
+}
+.localizacao h2{
+  padding-left: 50px;
+}
+
+.contatos{
+  display: flex;
+  background-color: #f4f4f4;
+  justify-content: center;
+}
+
+.contatos h2{
+ font-size: 30px ;
+ text-align: center;
+}
+
+.contatos ul{
+  list-style: none;
+}
+
+.contatos .networks ul{
+  padding-right: 30px;
+  border-right: 2px solid black;
+}
+
+.contatos .networks ul li,.contatos .horarios ul li{
+  padding:20px;
+}
+
+.sobre .sobreNos h2, .servicos h2, .equipe h2,.produtos h2, .localizacao h2, .contatos h2{
+  color:#F2994A;
+  font-family: Girassol;
+  font-size: 60px;
+}
+
